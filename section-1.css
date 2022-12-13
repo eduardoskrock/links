@@ -8,7 +8,7 @@
         max-width: 600px;
         width: 100vw;
         height: 30vh;
-        padding: 1rem;
+        padding: .5rem;
         margin: 0 auto;
     }
 
@@ -18,7 +18,7 @@
         width: 90vw;
         height: 30vh;
         display: flex;
-        background: #dbdbdb;
+        background: #f3f3f3;
         box-shadow: 3px 1px 10px 2px rgba(0, 0, 0, 0.1);
         border-radius: 15px;
     }
@@ -32,7 +32,6 @@
         height: 150px;
         border-radius: 100px;
         margin-left: 10px;
-
     }
 
     
@@ -63,13 +62,15 @@
     .paragraph-content p{
         font-family: 'Inter';
         font-size: .9rem;
+        font-weight: 600;
         color: rgb(51, 51, 51);
+        margin-top: 10px;
     }
 
     .icons-social-media{
         width: 10vw;
         display: flex;
-        gap: .5rem;
+        gap: .2rem;
     }
 
     .icons-social-media img{
@@ -77,6 +78,4 @@
         width: 50px;
         
     }
-
-
 }
