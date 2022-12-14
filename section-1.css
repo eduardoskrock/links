@@ -1,30 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;800&display=swap');
 
 
+.section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1024px;
+    width: 80vw;
+    height: 55vh;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.container-header{
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(236, 236, 236);
+    border-radius: 25px;
+}
+
+.left-side-container-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 220px;
+}
+
+.title-content h1{
+    font-family: 'Poppins';
+    font-size: 2rem;
+   color: rgb(118, 3, 122);
+    background-clip: text;
+}
+
+.right-side-container-header{
+    width: 300px;
+    align-items: center;}
+
+.paragraph-content p{
+    font-family: 'Inter';
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.linha-de-divisa{
+    display: none;
+}
+
+.icons-social-media{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-social-media a img{
+    width: 60px;
+}
+
 @media (max-width: 600px) {
 
 
     .section-1{
-        max-width: 600px;
-        width: 100vw;
-        height: 30vh;
+        width: 85vw;
+        height: 60vh;
         padding: .5rem;
         margin: 0 auto;
+        
     }
 
     .container-header{
-        display: flex;
+        background: rgb(236, 236, 236);
+        flex-direction: column;
+        width: 100%;
+        height: 60vh;
         align-items: center;
-        width: 90vw;
-        height: 30vh;
-        display: flex;
-        background: #f3f3f3;
         box-shadow: 3px 1px 10px 2px rgba(0, 0, 0, 0.1);
-        border-radius: 15px;
+        border-radius: 25px;
+        margin-top: 10px;
+        background: #f3f3f3;
     }
 
     .left-side-container-header{
         width: 49%;
+        display: flex;
+        align-items: center;
     }
 
     .left-side-container-header img{
@@ -36,15 +96,16 @@
 
     
     .right-side-container-header{
+        width: 50vw;
+        height: 30vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        width: 50%;
-        height: 25vh;
+        gap: 2rem;
     }
 
     .title-content{
         height: 8vh;
+
     }
     .title-content h1{
         background: linear-gradient(90deg, #DD13A5 1.46%, #B234EE 49.55%, #1B2F9C 93.27%);
@@ -63,14 +124,15 @@
         font-family: 'Inter';
         font-size: .9rem;
         font-weight: 600;
-        color: rgb(51, 51, 51);
-        margin-top: 10px;
+        margin-top: 1px;
+        color: rgb(48, 48, 48);
     }
 
     .icons-social-media{
-        width: 10vw;
+        width: 55vw;
         display: flex;
-        gap: .2rem;
+        justify-content: center;
+        gap: 1rem;
     }
 
     .icons-social-media img{
@@ -78,4 +140,6 @@
         width: 50px;
         
     }
+
+
 }
